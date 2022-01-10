@@ -1,0 +1,54 @@
+Von der Online Lösung:
+- Dialoge
+- Replay
+
+- Es gibt einen Ablauf
+- Es gibt das Spiel mit Regeln, die den Ablauf diktieren
+- Es gibt Spieler
+- Es gibt ein Spielbrett
+
+
+Kordinaten vs Linear
+Kann man beides implementieren
+
+
+Ablaufmodelle für zwei Spieler
+1. Eine Runde dann fertig
+2. Man wählt die Anzahl der Runden die man spielen möchte am Anfang
+3. Man kann nach jeder Runde von vorn Starten
+
+
+Computer Gegegner
+
+
+ER Modell
+1 Spiel hat 1 SpielFeld
+1 SpielFeld hat 1 Spiel
+
+1 Spiel hat 2 Spieler
+1 Spieler hat N Spiele
+
+
+### Pseudo Code
+
+Spiel
+
+  alleSpiele
+
+  Spieler
+  aktiverSpieler // ggf. nur Methode
+  passiverSpieler // ggf. gar nicht oder Methode
+
+  SpielFeld
+  Ergebnis
+
+
+Ergebnis // kann ich nicht ganz einschätzen, wirkt doppelt gemoppelt
+  Spiel
+  SpielFeld
+  Gewinner
+  Verlierer
+  Unentschieden
+
+Ich weiß nicht genau was mich stört, ich hab das Gefühl es fühlt sich nicht nach meiner Lösung an. 
+Das ich nicht besser testen kann.

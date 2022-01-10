@@ -1,0 +1,49 @@
+# Mastermind
+
+# Spielbeschreibung
+
+- Ein Spielbrett
+-> Besteht aus Ratereihen
+-> -> Bestehen aus Ratemöglichkeiten -> Liste von Guesses
+-> -> Bestehen aus Bewertung des Geratenen -> Steht im Guess
+-> Besteht aus dem geheimen Code
+
+                ["X","X","X","X"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["CP","C","",""]["Rot","Grün","Blau","Gelb"]
+["C:2", "P:1"]["Rot","Grün","Blau","Gelb"]
+
+- Zwei Spielern
+-> Dem Codierer
+-> Dem Rater
+-> -> Beide können Human oder Computer Player sein 
+
+- Einem Spiel
+-> Steuert den Ablauf
+-> Speichert das Ergebnis
+
+# Spielablauf
+1. Spieler werden erstellt
+1.1. Codierer wird erstellt
+1.2. Rater wird erstellt
+
+2. Codierer legt den Code fest
+
+3. Raten beginnt
+3.1. Setzte Farbcode
+3.2. Bekomme Feedback
+3.3. GameOver? SpielEnde : Wiederhole Wenn noch runden 
+
+4. Replay?
+
+
+Fragen:
+- Wie implementiert man verschiedene Rollen? Verschiedene Klassen oder über Rolle in Klasse Spieler bspw.?
+
+1. Version
+- Secret wird automatisch erstellt
+- Es geht gleich mit dem Raten los
